@@ -1,0 +1,18 @@
+User-agent: *
+        Disallow: /.vscode/
+        Disallow: /archivos/
+        Disallow: /controlador/
+        Disallow: /cronjobs/
+        Disallow: /css/
+        Disallow: /js/
+        Disallow: /librerias/
+        Disallow: /modelo/
+        Disallow: /plantillas/
+        Disallow: /pruebas/
+        Disallow: /pymes/
+        Disallow: /vendor/
+        Disallow: /vista/
+        Disallow: /.htaccess
+        Disallow: /.composer.json
+        Disallow: /.composer.lock
+        Disallow: /.README.md

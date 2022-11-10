@@ -1,0 +1,123 @@
+
+            /* Inicio estilos genéricos */
+                @font-face {
+                    font-family: BebasNeue;
+                    src: url("fuentes/BebasNeue-Regular.ttf");
+                }
+                @font-face {
+                    font-family: MileHeights;
+                    src: url("fuentes/MileHeights-FreePersonalUse.otf");
+                }
+                @font-face {
+                    font-family: PlayfairDisplay;
+                    src: url("fuentes/PlayfairDisplay-VariableFont_wght.ttf");
+                }
+                @font-face {
+                    font-family: Questrial;
+                    src: url("fuentes/Questrial-Regular.ttf");
+                }
+                body {
+                    font-family: Questrial, sans-serif !important;
+                    font-display: fallback;
+                }
+                    #loader_wrapper_v2 {
+                        background:rgba(0,27,139,.5);
+                        height:100%;
+                        left:0;
+                        position: fixed;
+                        top:0;
+                        width:100%;
+                        z-index:1004;
+                    }
+                        #loader_wrapper_interno {
+                            background: #FFF;
+                            bottom: 0;
+                            border-radius: 50%;
+                            height: 100px;
+                            left: 0;
+                            margin: auto;
+                            right: 0;
+                            position: fixed;
+                            top: 0;
+                            width: 100px;
+                        }
+                            #loader_wrapper_interno .center {
+                                width: 100%;
+                            }
+                                #loader_wrapper_interno .center img {
+                                    bottom: 0;
+                                    height: 25px;
+                                    left: 0;
+                                    margin: auto;
+                                    right: 0;
+                                    position: absolute;
+                                    top: 0;
+                                }
+                                    .preloader-wrapper {
+                                        margin-top: 8px !important;
+                                    }
+                .no-margin {
+                    margin: 0 !important;
+                }
+                .no-margin-bottom {
+                    margin-bottom: 0 !important;
+                }
+                .no-margin-top {
+                    margin-top: 0 !important;
+                }
+                .no-shadow {
+                    box-shadow: none !important;
+                }
+                .progress {
+                    background: rgba(0, 27, 139, .3) !important;
+                }
+                    .determinate {
+                        background: rgba(0, 27, 139) !important;
+                    }
+                .bold {
+                    font-weight: bold;
+                }
+                .relative {
+                    position: relative;
+                }
+                .absolute {
+                    position: absolute;
+                }
+                img {
+                    max-width: 100%;
+                }
+                .no-opacity {
+                    opacity: 0;
+                }
+                .all-transitions {
+                    transition: all .5s;
+                }
+                .uppercase {
+                    text-transform: uppercase;
+                }
+                strong {
+                    font-weight: bold !important;
+                }
+                .margin-auto {
+                    margin: auto;
+                }
+                .google-tag-manager {
+                    display:none;
+                    visibility:hidden;
+                }
+                .table-wrapper {
+                    overflow-x: auto;
+                }
+                #captcha_wrapper_inicio, #captcha_wrapper_olvidar, #captcha_wrapper_comentario {
+                    display: inline-block !important;   
+                }
+                .fixed {
+                    position: fixed;
+                }
+                @media (max-width: 360px) {
+                    #captcha_wrapper_inicio, #captcha_wrapper_olvidar, #captcha_wrapper_comentario {
+                        transform: scale(.9) translateX(0px);
+                    }
+                }
+            /* Fin estilos genéricos */
+        
