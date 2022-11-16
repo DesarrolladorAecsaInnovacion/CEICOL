@@ -215,7 +215,7 @@
             .footer-copyright {
                 background: none !important;
             }
-                .wrapper-datos-footer a:hover {
+                .wrapper-datos-footer a:hover, #politicas_wrapper a:hover {
                     color: #ffb000 !important;
                 }
                     .wrapper-datos-footer:nth-child(2) {

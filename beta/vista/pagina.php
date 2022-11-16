@@ -300,6 +300,14 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="row" id="politicas_wrapper">
+                                        <div class="col s12 m6 center">
+                                            <a href="archivos/politica-sistema-integrado-gestion.pdf" target="_BLANK" class="black-text all-transitions">Política del sistema integrado de gestion</a>
+                                        </div>
+                                        <div class="col s12 m6 center">
+                                            <a href="archivos/politica-tratamiento-de-datos.pdf" target="_BLANK" class="black-text all-transitions">Política de tratamiento de datos</a>
+                                        </div>
+                                    </div>
                                     <div class="row no-margin">
                                         <div class="col s12 center">
                                             <a target="_blank" href="https://www.tiktok.com/@cei_empresarial" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-tiktok white-text"></i></a>
