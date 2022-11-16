@@ -16,6 +16,9 @@
             media_queries_index(x);
             x.addListener(media_queries_index);
             $('#buscar').keyup(buscar);
+            $('#enlace_nosotros').click(function() {
+                $('.sidenav').sidenav('close');
+            });
         });
             function solicitarPermiso() {
                 // Notification.requestPermission().then((result) => {

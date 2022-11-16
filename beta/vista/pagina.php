@@ -65,7 +65,7 @@
                             <li><div class="divider"></div></li>
                             <li class="center"><a href="index.php" class="bold waves-effect waves-dark">Inicio</a></li>
                             <li><div class="divider"></div></li>
-                            <li class="center"><a href="#nosotros" class="bold waves-effect waves-dark">Nosotros</a></li>
+                            <li class="center"><a href="#nosotros" id="enlace_nosotros" class="bold waves-effect waves-dark">Nosotros</a></li>
                             <li><div class="divider"></div></li>
                         </ul>
                         <div class="row no-margin">
