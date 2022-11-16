@@ -96,7 +96,7 @@
                         <div class="row">
                             <div class="parallax-container">
                                 <div class="parallax">
-                                    <img src="img/index/banner.png">
+                                    <img src="img/index/banner.jpg">
                                     <div class="absolute valign-wrapper">
                                         <div class="col s12 center no-padding">
                                             <h1 class="bold">
