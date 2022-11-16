@@ -220,7 +220,7 @@
                 }
                     .wrapper-datos-footer:nth-child(2) {
                         border-left: 1px solid #606060;
-                        border-right: 1px solid #606060;
+                        /* border-right: 1px solid #606060; */
                     }
                 .footer-copyright .container .row + .row {
                     margin-top: 40px !important;
@@ -279,6 +279,20 @@
                 transform: translateY(50px);
             }
         }
+    #wrapper_logos_empresas {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+        #wrapper_logos_empresas .logo-empresas {
+            max-height: 75px;
+            /* margin-bottom: 20px; */
+            max-width: 100%;
+        }
+    @media (max-width: 993px) {
+        #wrapper_logos_empresas .logo-empresas {
+            margin-bottom: 20px;
+        }
+    }
     @media (max-width: 420px) {
         .parallax-container, .parallax {
             height: 150px;

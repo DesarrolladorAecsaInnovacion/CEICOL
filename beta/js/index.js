@@ -150,8 +150,10 @@
             if (x.matches) { // If media query matches
                 $('#wrapper_imagen_mision').parent().removeClass('valign-wrapper');
                 $('#wrapper_vision').parent().removeClass('valign-wrapper');
+                $('#wrapper_logos_empresas').removeClass('valign-wrapper');
             } else {
                 $('#wrapper_imagen_mision').parent().addClass('valign-wrapper');
                 $('#wrapper_vision').parent().addClass('valign-wrapper');
+                $('#wrapper_logos_empresas').addClass('valign-wrapper');
             }
           }

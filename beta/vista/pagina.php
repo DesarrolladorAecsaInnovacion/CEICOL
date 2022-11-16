@@ -156,6 +156,31 @@
                             </div>
                         </div>
                         <div class="row">
+                            <div class="container">
+                                <div class="col s12 gris-medio-cei">
+                                    <div class="col s12 center">
+                                        <div class="col s12 no-padding valign-wrapper" id="wrapper_logos_empresas">
+                                            <div class="col s12 m6 l3 center">
+                                                <img src="img/index/logoAecsa.png" class="logo-empresas">
+                                            </div>
+                                            <div class="col s12 m6 l3 center">
+                                                <img src="img/index/logoFlow.png" class="logo-empresas">
+                                            </div>
+                                            <div class="col s12 m6 l3 center">
+                                                <img src="img/index/logoReal.png" class="logo-empresas">
+                                            </div>
+                                            <div class="col s12 m6 l3 center">
+                                                <img src="img/index/logoMamba.png" class="logo-empresas">
+                                            </div>
+                                        </div>
+                                        <p class="bold">
+                                            Estas son algunas de las empresas con las mejores vacantes para ti
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="mision">
                             <div class="col s12 no-padding naranja-medio-cei valign-wrapper">
                                 <div class="col s12 m6 no-padding no-line-height" id="wrapper_imagen_mision"></div>
                                 <div class="col s12 m6">
@@ -166,7 +191,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" id="vision">
                             <div class="col s12 no-padding valign-wrapper">
                                 <div class="col s12 m6" id="wrapper_vision">
                                     <h4 id="titulo_vision" class="uppercase bold naranja-cei-text">Una nueva visión</h4>
@@ -179,7 +204,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" id="valores">
                             <div class="container">
                                 <div class="col s12">
                                     <h4 id="titulo_nuestros_valores" class="uppercase bold naranja-cei-text center gris-medio-cei">Nuestros Valores</h4>
@@ -244,27 +269,27 @@
                             <div class="footer-copyright">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col s12 m4 wrapper-datos-footer">
+                                        <div class="col s12 m6 wrapper-datos-footer">
                                             <div class="col s12 black-text">
                                                 <p class="bold">CEI</p>
                                                 <p>
-                                                    <a href="#!" class="black-text waves-effect waves-dark">Inicio</a>
+                                                    <a href="index.php" class="black-text waves-effect waves-dark">Inicio</a>
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col s12 m4 wrapper-datos-footer">
+                                        <div class="col s12 m6 wrapper-datos-footer">
                                             <div class="col s12 black-text">
                                                 <p class="bold">Nosotros</p>
                                                 <p>
-                                                    <a href="#!" class="black-text waves-effect waves-dark">Nuestra misión</a>
+                                                    <a href="#mision" class="black-text waves-effect waves-dark">Nuestra misión</a>
                                                     <br>
-                                                    <a href="#!" class="black-text waves-effect waves-dark">Nuestra visión</a>
+                                                    <a href="#vision" class="black-text waves-effect waves-dark">Nuestra visión</a>
                                                     <br>
-                                                    <a href="#!" class="black-text waves-effect waves-dark">Nuestros valores</a>
+                                                    <a href="#valores" class="black-text waves-effect waves-dark">Nuestros valores</a>
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col s12 m4 wrapper-datos-footer">
+                                        <div class="col s12 m4 wrapper-datos-footer hide">
                                             <div class="col s12 black-text">
                                                 <p class="bold">Contacto</p>
                                                 <p>
@@ -277,9 +302,11 @@
                                     </div>
                                     <div class="row no-margin">
                                         <div class="col s12 center">
-                                            <a href="#!" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-instagram white-text"></i></a>
-                                            <a href="#!" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-facebook white-text"></i></a>
-                                            <a href="#!" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-twitter white-text"></i></a>
+                                            <a target="_blank" href="https://www.tiktok.com/@cei_empresarial" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-tiktok white-text"></i></a>
+                                            <a target="_blank" href="https://www.linkedin.com/in/cei-empresarial-sas-810904252/?originalSubdomain=co&original_referer=" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-linkedin white-text"></i></a>
+                                            <a target="_blank" href="https://www.instagram.com/cei.empresarial/" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-instagram white-text"></i></a>
+                                            <a target="_blank" href="https://www.youtube.com/channel/UC1D8iNgkiCK-CQLyhFb-WjQ" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-youtube white-text"></i></a>
+                                            <a target="_blank" href="https://twitter.com/cei_empresarial" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-twitter white-text"></i></a>
                                         </div>
                                     </div>
                                 </div>
