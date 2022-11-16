@@ -5,9 +5,9 @@
             <!doctype html>
             <html lang="es-co">
                 <head>
-                    <?php $pagina->head("ceicol", "Coming Soon", "https://ceicol.com", "", "externo"); ?>
+                    <?php $pagina->head("CEI", "Coming Soon", "https://ceicol.net.co", "", "externo"); ?>
                 </head>
-                <body class="blue-grey">
+                <body class="white">
                     <?php
                         $pagina->nav();
                         $pagina->index();

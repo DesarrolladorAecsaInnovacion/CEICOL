@@ -58,19 +58,33 @@
                 }
                 function nav() {
                     ?>
-                        <div class="row">
-                            <nav class="blue-grey darken-4">
+                        <ul id="slide-out" class="sidenav">
+                            <div class="col s12 center">
+                                <a href="index.php"><img src="img/logo.png"></a>
+                            </div>
+                            <li><div class="divider"></div></li>
+                            <li class="center"><a href="index.php" class="bold waves-effect waves-dark">Inicio</a></li>
+                            <li><div class="divider"></div></li>
+                            <li class="center"><a href="#nosotros" class="bold waves-effect waves-dark">Nosotros</a></li>
+                            <li><div class="divider"></div></li>
+                        </ul>
+                        <div class="row no-margin">
+                            <nav class="white">
                                 <div class="nav-wrapper">
-                                    <a href="#" class="brand-logo center">Logo</a>
-                                    <ul id="nav-mobile" class="left hide-on-med-and-down">
-                                        <li><a href="sass.html">Sass</a></li>
-                                        <li><a href="badges.html">Components</a></li>
-                                        <li><a href="collapsible.html">JavaScript</a></li>
+                                    <div class="hide-on-large-only center col s12 relative">
+                                        <i class="material-icons sidenav-trigger absolute black-text waves-effect waves-dark" data-target="slide-out">menu</i>
+                                        <a class="black-text bold uppercase waves-effect waves-dark" href="index.php"><img src="img/logo.png"></a>
+                                    </div>
+                                    <ul class="left hide-on-med-and-down">
+                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="index.php"><img src="img/logo.png"></a></li>
+                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="index.php"><span class="all-transitions">Inicio</span></a></li>
+                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="#nosotros"><span class="all-transitions">Nosotros</span></a></li>
+                                        <li class="hide"><a class="black-text bold uppercase waves-effect waves-dark" href="#!"><span class="all-transitions">Trabajos</span></a></li>
+                                        <li class="hide"><a class="black-text bold uppercase waves-effect waves-dark" href="#!"><span class="all-transitions">Empresas</span></a></li>
                                     </ul>
-                                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                                        <li><a href="sass.html">Sass</a></li>
-                                        <li><a href="badges.html">Components</a></li>
-                                        <li><a href="collapsible.html">JavaScript</a></li>
+                                    <ul class="hide right hide-on-med-and-down">
+                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="#!"><span class="all-transitions">Iniciar sesión</span></a></li>
+                                        <li><a class="naranja-cei-text bold uppercase waves-effect waves-dark" href="#!"><span class="all-transitions">Registrate</span></a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -80,18 +94,145 @@
                 function index() {
                     ?>
                         <div class="row">
+                            <div class="parallax-container">
+                                <div class="parallax">
+                                    <img src="img/index/banner.png">
+                                    <div class="absolute valign-wrapper">
+                                        <div class="col s12 center no-padding">
+                                            <h1 class="bold">
+                                                <span class="white-text">¡Bienvenid@!</span>
+                                                <br>
+                                                <i class="material-icons large naranja-claro-cei-text">keyboard_arrow_down</i>
+                                            </h1>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
                             <div class="container">
-                                <div class="col s12 white-text">
-                                    <h6 class="center"><b>¡Bienvenido!</b></h6>
-                                    <p class="col s12 center">
-                                        Sitio configurado correctamente.
+                                <div class="col s12 gris-medio-cei">
+                                    <h6 class="center bold">Así funciona CEI</h6>
+                                    <div class="col s12 m3 center">
+                                        <i class="material-icons naranja-claro-cei-text medium">search</i>
+                                        <p>
+                                            Encuentra tu trabajo ideal
+                                        </p>
+                                    </div>
+                                    <div class="col s12 m3 center">
+                                        <i class="material-icons naranja-claro-cei-text medium">reviews</i>
+                                        <p>
+                                            Busca la empresa
+                                        </p>
+                                    </div>
+                                    <div class="col s12 m3 center">
+                                        <i class="material-icons naranja-claro-cei-text medium">price_check</i>
+                                        <p>
+                                            Compara salarios
+                                        </p>
+                                    </div>
+                                    <div class="col s12 m3 center">
+                                        <i class="material-icons naranja-claro-cei-text medium">work</i>
+                                        <p>
+                                            Aplica a la oferta
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="nosotros">
+                            <div class="container">
+                                <div class="col s12">
+                                    <h4 id="titulo_nosotros" class="uppercase bold naranja-cei-text center">¿Quienes somos?</h4>
+                                    <div class="col s12 m6 offset-m3 center">
+                                        <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nobis beatae fugiat a recusandae quae. Cumque non optio nobis, sunt explicabo dolorem praesentium, rem fugiat repudiandae excepturi et unde incidunt.
+                                        </p>
+                                        <p class="bold">
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nobis beatae fugiat a recusandae quae. Cumque non optio nobis, sunt explicabo dolorem praesentium, rem fugiat repudiandae excepturi et unde incidunt.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 no-padding naranja-medio-cei valign-wrapper">
+                                <div class="col s12 m6 no-padding no-line-height" id="wrapper_imagen_mision"></div>
+                                <div class="col s12 m6">
+                                    <h4 id="titulo_mision" class="uppercase bold white-text">Una nueva misión</h4>
+                                    <p class="white-text">
+                                        <span class="">Transformar vidas a través de oportunidades en el mundo laboral con calidad y eficiencia de estrategias innovadoras.</span>
                                     </p>
-                                    <p class="col s12 center">
-                                        <u>Para ir a la página de inicio de sesión:</u>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12 no-padding valign-wrapper">
+                                <div class="col s12 m6" id="wrapper_vision">
+                                    <h4 id="titulo_vision" class="uppercase bold naranja-cei-text">Una nueva visión</h4>
+                                    <p class="black-text">
+                                        Ser en el 2026 lideres en la creación de oportunidades laborales con un modelo de gestión innovador y reconocido por su eficiencia, orientado a la excelencia
                                     </p>
-                                    <p class="col s12 center">
-                                        <a href="iniciar.php" class="btn-large blue-grey lighten-3 blue-grey-text text-darken-4 waves-effect waves-dark white-text"><b>Haz clic aqui <i class="material-icons right blue-grey-text text-darken-4">keyboard_arrow_right</i></b></a>
-                                    </p>
+                                </div>
+                                <div class="col s12 m6 no-padding no-line-height valign-wrapper relative" id="wrapper_imagen_vision">
+                                    <img src="img/nosotros/vision.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col s12">
+                                    <h4 id="titulo_nuestros_valores" class="uppercase bold naranja-cei-text center gris-medio-cei">Nuestros Valores</h4>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">star</i> Estamos comprometidos con la excelencia.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">face_retouching_natural</i> Actuamos con transparencia.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">favorite</i> Tenemos pasión por los resultados.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">volunteer_activism</i> Amamos lo que hacemos.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">tips_and_updates</i> Somos innovadores.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">sentiment_satisfied</i> Todo lo que hacemos es el resultado de un trabajo de construcción para la vida.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">bolt</i> Somos eficientes y hacemos nuestro trabajo con ética.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">self_improvement</i> Tratamos a todos con respeto.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">engineering</i> Transferimos nuestra experiencia y conocimiento para crear soluciones creativas.
+                                        </div>
+                                    </div>
+                                    <div class="col s12 m6 offset-m3 l6">
+                                        <div class="col s12 bold item-nuestros-valores valign-wrapper">
+                                            <i class="material-icons medium naranja-claro-cei-text left">groups</i> Somos empáticos.
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -99,13 +240,56 @@
                 }
                 function footer() {
                     ?>
-                        <footer class="page-footer blue-grey darken-4">
+                        <footer class="page-footer">
                             <div class="footer-copyright">
-                                <div class="container center">
-                                    <b>© 2022</b>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col s12 m4 wrapper-datos-footer">
+                                            <div class="col s12 black-text">
+                                                <p class="bold">CEI</p>
+                                                <p>
+                                                    <a href="#!" class="black-text waves-effect waves-dark">Inicio</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m4 wrapper-datos-footer">
+                                            <div class="col s12 black-text">
+                                                <p class="bold">Nosotros</p>
+                                                <p>
+                                                    <a href="#!" class="black-text waves-effect waves-dark">Nuestra misión</a>
+                                                    <br>
+                                                    <a href="#!" class="black-text waves-effect waves-dark">Nuestra visión</a>
+                                                    <br>
+                                                    <a href="#!" class="black-text waves-effect waves-dark">Nuestros valores</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col s12 m4 wrapper-datos-footer">
+                                            <div class="col s12 black-text">
+                                                <p class="bold">Contacto</p>
+                                                <p>
+                                                    <a href="#!" class="black-text waves-effect waves-dark"><i class="material-icons left">phone</i>(+57) 601 662 4712</a>
+                                                    <br>
+                                                    <a href="#!" class="black-text waves-effect waves-dark"><i class="material-icons left">email</i>contacto@cei.net.co</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row no-margin">
+                                        <div class="col s12 center">
+                                            <a href="#!" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-instagram white-text"></i></a>
+                                            <a href="#!" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-facebook white-text"></i></a>
+                                            <a href="#!" class="btn-flat waves-effect waves-light black"><i class="material-icons fa-brands fa-twitter white-text"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </footer>
+                        <div class="row no-margin">
+                            <div class="col s12 center">
+                                Copyright © <?php echo date('Y'); ?> - CEI
+                            </div>
+                        </div>
                     <?php
                 }
             //Scripts usados en la página
