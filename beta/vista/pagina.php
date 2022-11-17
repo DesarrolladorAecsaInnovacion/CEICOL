@@ -144,12 +144,12 @@
                             <div class="container">
                                 <div class="col s12">
                                     <h4 id="titulo_nosotros" class="uppercase bold naranja-cei-text center">¿Quienes somos?</h4>
-                                    <div class="col s12 m6 offset-m3 center">
+                                    <div class="col s12 l6 offset-l3 center">
                                         <p>
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nobis beatae fugiat a recusandae quae. Cumque non optio nobis, sunt explicabo dolorem praesentium, rem fugiat repudiandae excepturi et unde incidunt.
+                                            Somos una empresa especialista en procesos de selección de personal. Brindamos soluciones completas, eficientes y de calidad a complejos retos de negocio en la selección y suministro del recurso humano de acuerdo a las diversas necesidades de nuestros clientes.
                                         </p>
                                         <p class="bold">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates nobis beatae fugiat a recusandae quae. Cumque non optio nobis, sunt explicabo dolorem praesentium, rem fugiat repudiandae excepturi et unde incidunt.
+                                            Creemos que una organización tiene la capacidad de transformarse a sí misma, si comprende la necesidad de realizar ajustes en algunas de sus prácticas culturales, es por eso que algunos de nuestros servicios son: Formación, Consultoría, Outsourcing de Nómina Salud y Seguridad Laboral, Selección y Evaluación de Personal.
                                         </p>
                                     </div>
                                 </div>

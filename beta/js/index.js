@@ -13,8 +13,11 @@
                 'height': $('#carousel_index').prop('scrollHeight') + 'px',
             });
             var x = window.matchMedia('(max-width: 992px)')
-            media_queries_index(x);
-            x.addListener(media_queries_index);
+            media_queries_index_tablet(x);
+            x.addListener(media_queries_index_tablet);
+            var y = window.matchMedia('(max-width: 600px)')
+            media_queries_index_movil(y);
+            y.addListener(media_queries_index_movil);
             $('#buscar').keyup(buscar);
             $('#enlace_nosotros').click(function() {
                 $('.sidenav').sidenav('close');
@@ -146,8 +149,15 @@
     
             }
         }
-        function media_queries_index(x) {
+        function media_queries_index_tablet(x) {
             if (x.matches) { // If media query matches
+                $('#wrapper_logos_empresas').removeClass('valign-wrapper');
+            } else {
+                $('#wrapper_logos_empresas').addClass('valign-wrapper');
+            }
+        }
+        function media_queries_index_movil(y) {
+            if (y.matches) { // If media query matches
                 $('#wrapper_imagen_mision').parent().removeClass('valign-wrapper');
                 $('#wrapper_vision').parent().removeClass('valign-wrapper');
                 $('#wrapper_logos_empresas').removeClass('valign-wrapper');
@@ -156,4 +166,4 @@
                 $('#wrapper_vision').parent().addClass('valign-wrapper');
                 $('#wrapper_logos_empresas').addClass('valign-wrapper');
             }
-          }
+        }
