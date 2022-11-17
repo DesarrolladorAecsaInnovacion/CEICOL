@@ -238,8 +238,8 @@
                         </div>
                         <div class="row">
                             <div class="container">
-                                <div class="col s12">
-                                    <div class="col s12 center">
+                                <div class="col s12 no-padding">
+                                    <div class="col s12 center no-padding">
                                         <h4 id="titulo_nuestros_aliados" class="uppercase bold naranja-cei-text center gris-medio-cei">Nuestros Aliados</h4>
                                         <div class="col s12 no-padding valign-wrapper" id="wrapper_logos_empresas">
                                             <div class="col s12 m6 l3 center">

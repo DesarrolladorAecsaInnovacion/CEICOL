@@ -334,7 +334,7 @@
     }
     #wrapper_imagen_mision + div, #wrapper_vision {
         padding: 80px;
-        padding-right: 15%;
+        padding-right: 16.4%;
     }
         #wrapper_imagen_vision {
             height: 500px;
@@ -347,7 +347,7 @@
             }
     #wrapper_vision {
         padding: 80px;
-        padding-left: 15%;
+        padding-left: 16.4%;
     }
     #titulo_nuestros_valores, #titulo_nuestros_aliados {
         padding-bottom: 40px;
