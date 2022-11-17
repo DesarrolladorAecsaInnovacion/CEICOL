@@ -100,7 +100,7 @@
                                     <div class="absolute valign-wrapper">
                                         <div class="col s12 center no-padding">
                                             <h1 class="bold">
-                                                <span class="white-text">¡Bienvenid@!</span>
+                                                <span class="white-text">¡Bienvenido(a)!</span>
                                                 <br>
                                                 <i class="material-icons large naranja-claro-cei-text">keyboard_arrow_down</i>
                                             </h1>
@@ -155,31 +155,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="container">
-                                <div class="col s12 gris-medio-cei">
-                                    <div class="col s12 center">
-                                        <div class="col s12 no-padding valign-wrapper" id="wrapper_logos_empresas">
-                                            <div class="col s12 m6 l3 center">
-                                                <img src="img/index/logoAecsa.png" class="logo-empresas">
-                                            </div>
-                                            <div class="col s12 m6 l3 center">
-                                                <img src="img/index/logoFlow.png" class="logo-empresas">
-                                            </div>
-                                            <div class="col s12 m6 l3 center">
-                                                <img src="img/index/logoReal.png" class="logo-empresas">
-                                            </div>
-                                            <div class="col s12 m6 l3 center">
-                                                <img src="img/index/logoMamba.png" class="logo-empresas">
-                                            </div>
-                                        </div>
-                                        <p class="bold">
-                                            Estas son algunas de las empresas con las mejores vacantes para ti
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div class="row" id="mision">
                             <div class="col s12 no-padding naranja-medio-cei valign-wrapper">
                                 <div class="col s12 m6 no-padding no-line-height" id="wrapper_imagen_mision"></div>
@@ -206,7 +181,7 @@
                         </div>
                         <div class="row" id="valores">
                             <div class="container">
-                                <div class="col s12">
+                                <div class="col s12 no-padding">
                                     <h4 id="titulo_nuestros_valores" class="uppercase bold naranja-cei-text center gris-medio-cei">Nuestros Valores</h4>
                                     <div class="col s12 m6 offset-m3 l6">
                                         <div class="col s12 bold item-nuestros-valores valign-wrapper">
@@ -261,6 +236,29 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col s12">
+                                    <div class="col s12 center">
+                                        <h4 id="titulo_nuestros_aliados" class="uppercase bold naranja-cei-text center gris-medio-cei">Nuestros Aliados</h4>
+                                        <div class="col s12 no-padding valign-wrapper" id="wrapper_logos_empresas">
+                                            <div class="col s12 m6 l3 center">
+                                                <img src="img/index/logoAecsa.png" class="logo-empresas">
+                                            </div>
+                                            <div class="col s12 m6 l3 center">
+                                                <img src="img/index/logoFlow.png" class="logo-empresas">
+                                            </div>
+                                            <div class="col s12 m6 l3 center">
+                                                <img src="img/index/logoReal.png" class="logo-empresas">
+                                            </div>
+                                            <div class="col s12 m6 l3 center">
+                                                <img src="img/index/logoMamba.png" class="logo-empresas">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <?php
                 }
                 function footer() {
@@ -269,7 +267,7 @@
                             <div class="footer-copyright">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col s12 m6 wrapper-datos-footer">
+                                        <div class="col s12 m4 wrapper-datos-footer">
                                             <div class="col s12 black-text">
                                                 <p class="bold">CEI</p>
                                                 <p>
@@ -277,7 +275,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col s12 m6 wrapper-datos-footer">
+                                        <div class="col s12 m4 wrapper-datos-footer">
                                             <div class="col s12 black-text">
                                                 <p class="bold">Nosotros</p>
                                                 <p>
@@ -289,18 +287,18 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col s12 m4 wrapper-datos-footer hide">
+                                        <div class="col s12 m4 wrapper-datos-footer">
                                             <div class="col s12 black-text">
-                                                <p class="bold">Contacto</p>
+                                                <p class="bold">Políticas</p>
                                                 <p>
-                                                    <a href="#!" class="black-text waves-effect waves-dark"><i class="material-icons left">phone</i>(+57) 601 662 4712</a>
+                                                    <a href="archivos/politica-sistema-integrado-gestion.pdf" target="_BLANK" class="black-text all-transitions">Política del sistema integrado de gestion</a>
                                                     <br>
-                                                    <a href="#!" class="black-text waves-effect waves-dark"><i class="material-icons left">email</i>contacto@cei.net.co</a>
+                                                    <a href="archivos/politica-tratamiento-de-datos.pdf" target="_BLANK" class="black-text all-transitions">Política de tratamiento de datos</a>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row" id="politicas_wrapper">
+                                    <div class="row hide" id="politicas_wrapper">
                                         <div class="col s12 m6 center">
                                             <a href="archivos/politica-sistema-integrado-gestion.pdf" target="_BLANK" class="black-text all-transitions">Política del sistema integrado de gestion</a>
                                         </div>

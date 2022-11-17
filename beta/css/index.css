@@ -209,6 +209,7 @@
             background: url('../img/footer.png');
             background-size: cover;
             border-top: 2px solid #d5642c;
+            margin-top: 80px;
             padding-bottom: 40px;
             padding-top: 40px;
         }
@@ -220,7 +221,7 @@
                 }
                     .wrapper-datos-footer:nth-child(2) {
                         border-left: 1px solid #606060;
-                        /* border-right: 1px solid #606060; */
+                        border-right: 1px solid #606060;
                     }
                 .footer-copyright .container .row + .row {
                     margin-top: 40px !important;
@@ -333,6 +334,7 @@
     }
     #wrapper_imagen_mision + div, #wrapper_vision {
         padding: 80px;
+        padding-right: 15%;
     }
         #wrapper_imagen_vision {
             height: 500px;
@@ -343,9 +345,16 @@
                 margin: auto;
                 width: 250px;
             }
-    #titulo_nuestros_valores {
+    #wrapper_vision {
+        padding: 80px;
+        padding-left: 15%;
+    }
+    #titulo_nuestros_valores, #titulo_nuestros_aliados {
         padding-bottom: 40px;
         padding-top: 40px;
+    }
+    #titulo_nuestros_aliados {
+        margin-top: 80px;
     }
     .item-nuestros-valores {
         padding-bottom: 20px !important;
@@ -371,5 +380,15 @@
             height: 250px;
             margin-bottom: 50px;
         }
+    }
+    @media (max-width: 993px) {
+        #wrapper_imagen_mision + div, #wrapper_vision {
+            padding: 80px;
+            padding-right: 8%;
+        }
+        #wrapper_vision {
+                padding: 80px;
+                padding-left: 8%;
+            }
     }
 /* Fin Nosotros */
