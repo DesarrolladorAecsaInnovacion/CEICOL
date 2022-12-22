@@ -11,6 +11,12 @@
     .naranja-claro-cei-text {
         color: #ffb000 !important;
     }
+    .naranja-mas-claro-cei {
+        background: #f7e0d5 !important;
+    }
+    .naranja-mas-claro-cei-text {
+        color: #f7e0d5 !important;
+    }
     .naranja-medio-cei {
         background: #e09459 !important;
     }
@@ -107,6 +113,12 @@
         .determinate {
             background: rgba(0, 27, 139) !important;
         }
+    .cursor {
+        cursor: pointer !important;
+    }
+    .no-cursor {
+        cursor: auto !important;
+    }
     .bold {
         font-weight: bold !important;
     }
@@ -128,6 +140,9 @@
     .uppercase {
         text-transform: uppercase;
     }
+    .inline {
+        display: inline;
+    }
     strong {
         font-weight: bold !important;
     }
@@ -141,14 +156,14 @@
     .table-wrapper {
         overflow-x: auto;
     }
-    #captcha_wrapper_inicio, #captcha_wrapper_olvidar, #captcha_wrapper_comentario {
+    #captcha_wrapper_inicio, #captcha_wrapper_olvidar, #captcha_wrapper_comentario, #captcha_wrapper_contacto {
         display: inline-block !important;   
     }
     .fixed {
         position: fixed;
     }
     @media (max-width: 360px) {
-        #captcha_wrapper_inicio, #captcha_wrapper_olvidar, #captcha_wrapper_comentario {
+        #captcha_wrapper_inicio, #captcha_wrapper_olvidar, #captcha_wrapper_comentario, #captcha_wrapper_contacto {
             transform: scale(.9) translateX(0px);
         }
     }
@@ -205,6 +220,9 @@
                         border: 1px solid #d5642c;
                         border-radius: 10px;
                     }
+                        nav .nav-wrapper ul li a.active span {
+                            border: 1px solid #d5642c;
+                        }
         .page-footer {
             background: url('../img/footer.png');
             background-size: cover;
@@ -270,7 +288,7 @@
                 text-shadow: 0px 0px 50px #ffb000;
             }
         }*/
-        .parallax div:nth-child(2) div h1 i {
+        .parallax div:nth-child(2) div i {
             animation-name: animacion_icono_parallax;
             animation-duration: 5s;
             animation-iteration-count: infinite;
@@ -370,7 +388,7 @@
         #titulo_nosotros + div {
             margin-bottom: 40px;
         }
-        #wrapper_imagen_mision {
+        #wrapper_imagen_mision, .wrapper-imagen-servicios {
             height: 250px;
         }
         #wrapper_imagen_mision + div, #wrapper_vision {
@@ -387,8 +405,105 @@
             padding-right: 8%;
         }
         #wrapper_vision {
-                padding: 80px;
-                padding-left: 8%;
-            }
+            padding: 80px;
+            padding-left: 8%;
+        }
     }
 /* Fin Nosotros */
+/* Inicio Servicios */
+    .wrapper-texto-servicios h5 {
+        padding: 40px !important;
+        top: 0;
+        width: 50%;
+    }
+        .titulo-completo-servicios {
+            padding: 40px !important;
+        }
+        .wrapper-texto-servicios h5 i, .titulo-completo-servicios i {
+            transform: scale(2) translateY(1px);
+        }
+    .wrapper-texto-servicios p {
+        padding: 40px !important;
+        padding-top: 140px !important;
+    }
+        .wrapper-texto-servicios-completo p {
+            padding: 40px !important;
+        }
+    .wrapper-imagen-servicios {
+        background-size: cover !important;
+        background-position: center top !important;
+        height: 500px;
+    }
+        #wrapper_imagen_servicios_formacion {
+            background: url('../img/servicios/formacion-sin-texto.jpg');
+        }
+        #wrapper_imagen_servicios_evaluaciones {
+            background: url('../img/servicios/evaluacion-sin-texto.jpg');
+        }
+        #wrapper_imagen_servicios_consultoria {
+            background: url('../img/servicios/consultoria-sin-texto.jpg');
+        }
+        #wrapper_imagen_servicios_estrategia {
+            background: url('../img/servicios/estrategia-sin-texto.jpg');
+        }
+        #wrapper_imagen_servicios_seleccion {
+            background: url('../img/servicios/seleccion-sin-texto.jpg');
+        }
+        #wrapper_imagen_servicios_sistema {
+            background: url('../img/servicios/sistema.jpg');
+        }
+    .wrapper-metodologia {
+        background: url('../img/servicios/metodologia.jpg');
+        background-size: cover !important;
+        background-position: center bottom !important;
+        padding: 60px !important;
+        padding-bottom: 80px !important;
+    }
+        #divider_metodologia {
+            border-top: 1px dashed #d5642c;
+            margin-top: 15px;
+            position: absolute;
+            width: 100%;
+        }
+        .wrapper-metodologia h5 {
+            margin-bottom: 60px !important;
+        }
+        .wrapper-metodologia .col.s12.m6.l3 {
+            margin-bottom: 40px;
+        }
+        .wrapper-metodologia p.relative {
+            border-left: 2px solid #d5642c;
+            padding-left: 20px;
+        }
+            .wrapper-metodologia p.relative span i {
+                left: -6px;
+                position: absolute;
+            }
+    @media (max-width: 992px) {
+        .wrapper-texto-servicios h5 {
+            position: relative !important;
+            width: 100%;
+        }
+            .wrapper-texto-servicios p {
+                padding-top: 40px !important;
+            }
+    }
+    @media (max-width: 800px) {
+        .parallax h3 {
+            font-size: 2em;
+        }
+    }
+    @media (max-width: 430px) {
+        .parallax h3 {
+            font-size: 1.5em;
+        }
+    }
+/* Fin Servicios */
+/* Inicio Contacto */
+    #contacto_wrapper {
+        margin-top: 40px;
+    }
+        #titulo_contacto {
+            padding: 40px;
+        }
+/* Fin Contacto */

@@ -65,7 +65,11 @@
                             <li><div class="divider"></div></li>
                             <li class="center"><a href="index.php" class="bold waves-effect waves-dark">Inicio</a></li>
                             <li><div class="divider"></div></li>
-                            <li class="center"><a href="#nosotros" id="enlace_nosotros" class="bold waves-effect waves-dark">Nosotros</a></li>
+                            <li class="center"><a href="index.php#nosotros" id="enlace_nosotros" class="bold waves-effect waves-dark">Nosotros</a></li>
+                            <li><div class="divider"></div></li>
+                            <li class="center"><a href="servicios.php" class="bold waves-effect waves-dark">Servicios</a></li>
+                            <li><div class="divider"></div></li>
+                            <li class="center"><a href="contacto.php" class="bold waves-effect waves-dark">Contacto</a></li>
                             <li><div class="divider"></div></li>
                         </ul>
                         <div class="row no-margin">
@@ -77,10 +81,10 @@
                                     </div>
                                     <ul class="left hide-on-med-and-down">
                                         <li><a class="black-text bold uppercase waves-effect waves-dark" href="index.php"><img src="img/logo.png"></a></li>
-                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="index.php"><span class="all-transitions">Inicio</span></a></li>
-                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="#nosotros"><span class="all-transitions">Nosotros</span></a></li>
-                                        <li class="hide"><a class="black-text bold uppercase waves-effect waves-dark" href="#!"><span class="all-transitions">Trabajos</span></a></li>
-                                        <li class="hide"><a class="black-text bold uppercase waves-effect waves-dark" href="#!"><span class="all-transitions">Empresas</span></a></li>
+                                        <li><a class="black-text bold uppercase waves-effect waves-dark active" href="index.php"><span class="all-transitions">Inicio</span></a></li>
+                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="index.php#nosotros"><span class="all-transitions">Nosotros</span></a></li>
+                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="servicios.php"><span class="all-transitions">Servicios</span></a></li>
+                                        <li><a class="black-text bold uppercase waves-effect waves-dark" href="contacto.php"><span class="all-transitions">Contacto</span></a></li>
                                     </ul>
                                     <ul class="hide right hide-on-med-and-down">
                                         <li><a class="black-text bold uppercase waves-effect waves-dark" href="#!"><span class="all-transitions">Iniciar sesión</span></a></li>
@@ -261,6 +265,400 @@
                         </div>
                     <?php
                 }
+                function servicios() {
+                    ?>
+                        <div class="row">
+                            <div class="parallax-container">
+                                <div class="parallax">
+                                    <img src="img/servicios/banner.jpg">
+                                    <div class="absolute valign-wrapper">
+                                        <div class="col s12 center no-padding">
+                                            <h3 class="uppercase">
+                                                <span class="white-text">Nos especializamos<br><span class="bold">en procesos de selección<br>de personal.</span></span>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col s12">
+                                    <h6 class="center bold">Así funciona CEI</h6>
+                                    <div class="col s12 l6 offset-l3 center">
+                                        <p>
+                                            Brindamos soluciones completas a complejos retos de negocio, eficientes y de calidad en la selección y suministro del recurso humano para las diversas necesidades de nuestros clientes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col s12 naranja-cei white-text">
+                                    <h5 class="center bold uppercase">Servicios</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col s12 xl6 offset-xl3 center no-padding">
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <div class="col s12 no-padding">
+                                                <a href="#formacion" class="waves-effect waves-light"><img src="img/servicios/formacion.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col s6">
+                                            <div class="col s12 no-padding">
+                                                <a href="#seleccion" class="waves-effect waves-light"><img src="img/servicios/seleccion.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <div class="col s12 no-padding">
+                                                <a href="#evaluaciones" class="waves-effect waves-light"><img src="img/servicios/evaluacion.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col s6">
+                                            <div class="col s12 no-padding">
+                                                <a href="#consultoria" class="waves-effect waves-light"><img src="img/servicios/consultoria.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col s6">
+                                            <div class="col s12 no-padding">
+                                                <a href="#estrategia" class="waves-effect waves-light"><img src="img/servicios/outsourcing.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col s6">
+                                            <div class="col s12 no-padding">
+                                                <a href="#sistema" class="waves-effect waves-light"><img src="img/servicios/salud.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="formacion">
+                            <div class="container">
+                                <div class="col s12 no-padding gris-medio-cei valign-wrapper relative wrapper-tarjeta-servicios">
+                                    <div class="col s12 l6 wrapper-texto-servicios no-padding">
+                                        <h5 class="uppercase bold naranja-cei-text no-margin naranja-mas-claro-cei absolute">Formación <i class="material-icons">arrow_drop_down</i></h5>
+                                        <p class="no-margin">
+                                            Identificamos las necesidades de capacitación que requiere la compañía, a través de encuestas y evaluaciones de desempeño que realizamos a los empleados, <b>ejecutando un análisis para potenciar las habilidades de cada persona y proporcionando las herramientas para el seguimiento por parte de los jefes inmediatos y el departamento de recursos humanos.</b>
+                                            <br><br>
+                                            <a href="#!" class="btn-small btn-flat waves-effect waves-light naranja-cei white-text bold">Contáctanos</a>
+                                        </p>
+                                    </div>
+                                    <div class="col s12 l6 no-padding no-line-height wrapper-imagen-servicios relative" id="wrapper_imagen_servicios_formacion"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="seleccion">
+                            <div class="container">
+                                <div class="col s12 naranja-mas-claro-cei no-padding">
+                                    <div class="col s12 l6 offset-l6 no-padding">
+                                        <h5 class="uppercase bold naranja-cei-text titulo-completo-servicios">Selección de personal <i class="material-icons">arrow_drop_down</i></h5>
+                                    </div>
+                                </div>
+                                <div class="col s12 no-padding gris-medio-cei valign-wrapper relative wrapper-tarjeta-servicios">
+                                    <div class="col s12 l6 no-padding no-line-height wrapper-imagen-servicios" id="wrapper_imagen_servicios_seleccion"></div>
+                                    <div class="col s12 l6 wrapper-texto-servicios wrapper-texto-servicios-completo no-padding">
+                                        <p class="no-margin">
+                                            Actualmente no solo debemos preocuparnos por contar con los mejores profesionales, también debemos preocuparnos porque estos realmente les den valor a nuestras organizaciones.
+                                            <br><br>
+                                            <span class="bold uppercase">¿NUESTROS MÉTODOS?</span>
+                                            <br><br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Levantamiento presencial del perfil.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Reclutamiento.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Aplicación de pruebas psicotécnicas.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Entrevistas.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Verificación de referencias.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Informe de selección.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Manejo y disponibilidad de reemplazos.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Capacitaciones técnicas con bajo costo en temas relacionados con servicio al cliente, protocolo, proyecto de vida entre otros, en coordinación con el cliente.
+                                            <br><br>
+                                            <span class="bold uppercase">La Selección se efectúa de acuerdo con los parámetros determinados en la orden de vinculación emitida por la empresa cliente.</span>
+                                            <br><br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Búsqueda y selección de candidatos.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Firma y legalización de los contratos de los trabajadores.
+                                            <br><br>
+                                            (Se efectúa de acuerdo con los parámetros determinados en la orden de vinculación emitida por la empresa cliente).
+                                            <br><br>
+                                            <span class="bold uppercase">Realizamos un proceso de preselección, selección y reclutamiento detallado.</span>
+                                            <br><br>
+                                            Además de las competencias laborales los candidatos cuentan con:
+                                            <br><br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Excelente presentación personal.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Conocimiento de funciones.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Estabilidad laboral.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Documentos vigentes.<br>
+                                            <br><br>
+                                            <a href="#!" class="btn-small btn-flat waves-effect waves-light naranja-cei white-text bold">Contáctanos</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col s12 no-padding wrapper-metodologia">
+                                    <div class="col s12 no-padding center relative">
+                                        <h5 class="uppercase bold naranja-cei-text no-margin">Nuestra metodología</h5>
+                                        <div id="divider_metodologia"></div>
+                                        <div class="col s12 no-padding relative">
+                                            <div class="col s12 m6 l3">
+                                                <div class="col s12">
+                                                    <a href="#!" class="btn-small btn-flat no-cursor naranja-cei white-text bold">Insights</a>
+                                                    <p>
+                                                        Preparar toda la información del contexto para crear un plan de acción acorde a las necesidades.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col s12 m6 l3">
+                                                <div class="col s12">
+                                                    <a href="#!" class="btn-small btn-flat no-cursor naranja-cei white-text bold">Estrategia</a>
+                                                    <p>
+                                                        Co-crear la ruta estratégica que debemos seguir, para abarcar con eficiencia los objetivos propuestos.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col s12 m6 l3">
+                                                <div class="col s12">
+                                                    <a href="#!" class="btn-small btn-flat no-cursor naranja-cei white-text bold">Despliegue</a>
+                                                    <p>
+                                                        A través de acompañamiento de profesionales expertos, se realizará el despliegue estratégico de las iniciativas.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col s12 m6 l3">
+                                                <div class="col s12">
+                                                    <a href="#!" class="btn-small btn-flat no-cursor naranja-cei white-text bold">Escalado</a>
+                                                    <p>
+                                                        Usar el conocimiento adquirido para escalarlo y lograr una verdadera transformación cultural en toda la organización.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="evaluaciones">
+                            <div class="container">
+                                <div class="col s12 no-padding gris-medio-cei valign-wrapper relative wrapper-tarjeta-servicios">
+                                    <div class="col s12 l6 wrapper-texto-servicios no-padding">
+                                        <h5 class="uppercase bold naranja-cei-text no-margin naranja-mas-claro-cei absolute">Evaluaciones especializadas <i class="material-icons">arrow_drop_down</i></h5>
+                                        <p class="no-margin">
+                                            Estas evaluaciones están orientadas a profundizar en detalle las competencias, habilidades, y personalidad de los candidatos, de acuerdo con el cargo y su nivel de impacto en la organización.
+                                            <br><br>
+                                            <span class="bold naranja-cei-text uppercase">Headhunting</span>
+                                            <br><br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Reclutamiento de perfiles de alto nivel.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Evaluación integral de talento directivo.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Entrevista a profundidad especializada en cargos gerenciales.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Informe especializado de potencial de desarrollo.
+                                            <br><br>
+                                            <a href="#!" class="btn-small btn-flat waves-effect waves-light naranja-cei white-text bold">Contáctanos</a>
+                                        </p>
+                                    </div>
+                                    <div class="col s12 l6 no-padding no-line-height wrapper-imagen-servicios" id="wrapper_imagen_servicios_evaluaciones"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="consultoria">
+                            <div class="container">
+                                <div class="col s12 naranja-mas-claro-cei no-padding">
+                                    <div class="col s12 l6 offset-l6 no-padding">
+                                        <h5 class="uppercase bold naranja-cei-text titulo-completo-servicios">Consultoría <i class="material-icons">arrow_drop_down</i></h5>
+                                    </div>
+                                </div>
+                                <div class="col s12 no-padding gris-medio-cei valign-wrapper relative wrapper-tarjeta-servicios">
+                                    <div class="col s12 l6 no-padding no-line-height wrapper-imagen-servicios" id="wrapper_imagen_servicios_consultoria"></div>
+                                    <div class="col s12 l6 wrapper-texto-servicios wrapper-texto-servicios-completo no-padding">
+                                        <p class="no-margin" id="detalles_consultoria">
+                                            <span class="bold uppercase">Valoración del capital humano.</span>
+                                            <br><br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Estudio de clima Laboral / Evaluación por competencias.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Assessment Center potencial / Selección.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Sistema 360° de Evaluación / Objetivos Competencias.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Plataforma de evaluaciones / Desempeño – Objetivos.
+                                            <br><br>
+                                            <span class="bold uppercase">DESARROLLO Y RR.HH.</span>
+                                            <br><br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Descripción de puestos de trabajo - Perfiles<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Programa de Identificación de potenciales.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Modelo de identificacion de competencias.
+                                            <br><br>
+                                            <span class="bold uppercase naranja-cei-text">RECURSOS HUMANOS IDEAL:</span>
+                                            <br><br>
+                                            <span class="naranja-cei-text bold left"><i class="material-icons">remove</i></span><span class="bold uppercase">SOCIAL ESTRATÉGICO</span>
+                                            <br>
+                                            Administración de recursos humanos estratégicos.
+                                            <br><br>
+                                            <span class="naranja-cei-text bold left"><i class="material-icons">remove</i></span><span class="bold uppercase">ADALID DE LOS EMPLEADOS</span>
+                                            <br>
+                                            Administración de la contribución de los empleados.
+                                            <br><br>
+                                            <span class="naranja-cei-text bold left"><i class="material-icons">remove</i></span><span class="bold uppercase">EXPERTO ADMINISTRATIVO</span>
+                                            <br>
+                                            Administración de la infraestructura.
+                                            <br><br>
+                                            <span class="naranja-cei-text bold left"><i class="material-icons">remove</i></span><span class="bold uppercase">AGENTE DE CAMBIO</span>
+                                            <br>
+                                            Administración de la transformación y el cambio.
+                                            <br><br>
+                                            <a href="#!" class="btn-small btn-flat waves-effect waves-light naranja-cei white-text bold">Contáctanos</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="estrategia">
+                            <div class="container">
+                                <div class="col s12 no-padding gris-medio-cei valign-wrapper relative wrapper-tarjeta-servicios">
+                                    <div class="col s12 l6 wrapper-texto-servicios no-padding">
+                                        <h5 class="uppercase bold naranja-cei-text no-margin naranja-mas-claro-cei absolute">Estrategia organizacional <i class="material-icons">arrow_drop_down</i></h5>
+                                        <p class="no-margin">
+                                            <span class="bold naranja-cei-text">&#x2022;</span> <b>Outsourcing de recursos humanos.</b><br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Programas de responsabilidad social corporativa.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Desvinculación laboral asistida.<br>
+                                            <span class="bold naranja-cei-text">&#x2022;</span> Estudios salariales y de Mercado.
+                                            <br><br>
+                                            <a href="#!" class="btn-small btn-flat waves-effect waves-light naranja-cei white-text bold">Contáctanos</a>
+                                        </p>
+                                    </div>
+                                    <div class="col s12 l6 no-padding no-line-height wrapper-imagen-servicios" id="wrapper_imagen_servicios_estrategia"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col s12 no-padding wrapper-metodologia">
+                                    <div class="col s12 no-padding center relative">
+                                        <div class="col s12 no-padding relative">
+                                            <div class="col s12 m6 l3 offset-l3">
+                                                <div class="col s12">
+                                                    <a href="#!" class="btn-small btn-flat no-cursor naranja-cei white-text bold">Ejes de</a>
+                                                    <br>
+                                                    <span class="uppercase naranja-cei-text bold">Intervención</span>
+                                                    <br><br>
+                                                    <p class="left-align relative">
+                                                        <span class="naranja-cei-text bold"><i class="material-icons">remove</i></span> <b class="uppercase">Capacidades</b><br><br>
+                                                        <span class="naranja-cei-text bold"><i class="material-icons">remove</i></span> <b class="uppercase">Conectividad</b><br><br>
+                                                        <span class="naranja-cei-text bold"><i class="material-icons">remove</i></span> <b class="uppercase">Cultura</b><br><br>
+                                                        <span class="naranja-cei-text bold"><i class="material-icons">remove</i></span> <b class="uppercase">Costo</b>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col s12 m6 l3">
+                                                <div class="col s12">
+                                                    <a href="#!" class="btn-small btn-flat no-cursor naranja-cei white-text bold">Ejes</a>
+                                                    <br>
+                                                    <span class="uppercase naranja-cei-text bold">Estratégicos</span>
+                                                    <br><br>
+                                                    <p class="left-align relative">
+                                                        <span class="naranja-cei-text bold"><i class="material-icons">remove</i></span> <b class="uppercase">Liderazgo</b><br><br>
+                                                        <span class="naranja-cei-text bold"><i class="material-icons">remove</i></span> <b class="uppercase">Habilidades técnicas</b><br><br>
+                                                        <span class="naranja-cei-text bold"><i class="material-icons">remove</i></span> <b class="uppercase">Comportamientos y habilidades blandas</b><br><br>
+                                                        <span class="naranja-cei-text bold"><i class="material-icons">remove</i></span> <b class="uppercase">Gerencia organizacional de proyectos</b>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col s12 m6 offset-m3 center">
+                                                <p>
+                                                    Creemos que una organización tiene la capacidad de transformarse a si misma, si comprende la necesidad de realizar ajustes en algunas de sus prácticas culturales.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="sistema">
+                            <div class="container">
+                                <div class="col s12 naranja-mas-claro-cei no-padding">
+                                    <div class="col s12 l6 offset-l6 no-padding">
+                                        <h5 class="uppercase bold naranja-cei-text titulo-completo-servicios">SISTEMA DE GESTIÓN DE SEGURIDAD Y SALUD EN EL TRABAJO <i class="material-icons">arrow_drop_down</i></h5>
+                                    </div>
+                                </div>
+                                <div class="col s12 no-padding gris-medio-cei valign-wrapper relative wrapper-tarjeta-servicios">
+                                    <div class="col s12 l6 no-padding no-line-height wrapper-imagen-servicios" id="wrapper_imagen_servicios_sistema"></div>
+                                    <div class="col s12 l6 wrapper-texto-servicios wrapper-texto-servicios-completo no-padding">
+                                        <p class="no-margin">
+                                            <br><br>
+                                            <span class="naranja-cei-text bold">&#x2022;</span> Selección y evaluación especializada de personal del sector salud y riesgos profesionales.
+                                            <br><br>
+                                            <span class="naranja-cei-text bold">&#x2022;</span> Tercerización de personal destacado en áreas de salud y riesgos profesionales.<br><br>
+                                            <span class="naranja-cei-text bold">&#x2022;</span> Evaluaciones médicas ocupacionales de ingreso, periódicas y de retiro.
+                                            <br><br>
+                                            <span class="naranja-cei-text bold">&#x2022;</span> Consultoría en el programa de vigilancia epidemiológica y prevención de psicosocial.
+                                            <br><br>
+                                            <span class="bold uppercase naranja-cei-text">El capital humano es el recurso más importante de su organización.</span>
+                                            <br><br>
+                                            <a href="#!" class="btn-small btn-flat waves-effect waves-light naranja-cei white-text bold">Contáctanos</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+                }
+                function contacto() {
+                    ?>
+                        <div class="row">
+                            <div class="container">
+                                <div class="col s12 no-padding" id="contacto_wrapper">
+                                    <h5 class="center bold uppercase naranja-mas-claro-cei naranja-cei-text no-margin" id="titulo_contacto">Contactanos</h5>
+                                    <div class="row">
+                                        <div class="col s12 valign-wrapper no-padding" id="formulario_contacto_wrapper">
+                                            <div class="col s6 hide-on-med-and-down">
+                                                <img src="img/servicios/seleccion-sin-texto.jpg" draggable="false">
+                                            </div>
+                                            <div class="col s12 l6">
+                                                <p class="center">
+                                                    Puedes contactarnos por medio del siguiente formulario:
+                                                </p>
+                                                <div class="input-field col s12">
+                                                    <i class="material-icons prefix">person</i>
+                                                    <input id="nombre" type="text" class="validate" required>
+                                                    <label for="nombre" class="bold">Nombre</label>
+                                                </div>
+                                                <div class="input-field col s12">
+                                                    <i class="material-icons prefix">email</i>
+                                                    <input id="correo" type="email" class="validate" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" required>
+                                                    <label for="correo" class="bold">Correo</label>
+                                                </div>
+                                                <div class="input-field col s12">
+                                                    <i class="material-icons prefix">phone_iphone</i>
+                                                    <input id="telefono" type="number" class="validate" min="3000000000" max="3999999999"  required>
+                                                    <label for="telefono" class="bold">Teléfono</label>
+                                                </div>
+                                                <div class="input-field col s12">
+                                                    <i class="material-icons prefix">comment</i>
+                                                    <textarea id="mensaje" class="materialize-textarea" required data-length="120"></textarea>
+                                                    <label for="mensaje" class="bold">Mensaje</label>
+                                                </div>
+                                                <div class="col s12 center" style="position: relative;">
+                                                    <div id="captcha_wrapper_contacto"></div>
+                                                    <br><br>
+                                                </div>
+                                                <div class="col s12">
+                                                    <p class="center">
+                                                        <button id="enviar" class="btn-large waves-effect waves-light bold pulse naranja-cei">Enviar<i class="material-icons right">keyboard_arrow_right</i></button>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php
+                }
                 function footer() {
                     ?>
                         <footer class="page-footer">
@@ -279,11 +677,11 @@
                                             <div class="col s12 black-text">
                                                 <p class="bold">Nosotros</p>
                                                 <p>
-                                                    <a href="#mision" class="black-text waves-effect waves-dark">Nuestra misión</a>
+                                                    <a href="index.php#mision" class="black-text waves-effect waves-dark">Nuestra misión</a>
                                                     <br>
-                                                    <a href="#vision" class="black-text waves-effect waves-dark">Nuestra visión</a>
+                                                    <a href="index.php#vision" class="black-text waves-effect waves-dark">Nuestra visión</a>
                                                     <br>
-                                                    <a href="#valores" class="black-text waves-effect waves-dark">Nuestros valores</a>
+                                                    <a href="index.php#valores" class="black-text waves-effect waves-dark">Nuestros valores</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -336,6 +734,7 @@
                         <script src="<?php echo $ubicacion; ?>librerias/jquery.js"></script>
                         <script src="<?php echo $ubicacion; ?>librerias/materialize.min.js"></script>
                         <script src="<?php echo $ubicacion; ?>librerias/fontawesome.js"></script>
+                        <script src="<?php echo $ubicacion; ?>librerias/sweetalert.min.js"></script>
                         <script src="<?php echo $ubicacion; ?>js/index.js?id=<?php echo date("dmYHis"); ?>"></script>
                         <?php
                             if ($captcha) {
