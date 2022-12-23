@@ -5,6 +5,7 @@
         class indexModelo {
             function __construct() {
                 $this->consulta = new consultas();                    
+                $this->correos = new correos();                 
             }
             //Contacto
                 function enviarContacto() {
@@ -80,7 +81,7 @@
                         $destinatario = 'desarrollador@aecsa.company';
                         $asunto = 'Nuevo contacto desde la página web';
                         $remitente = 'CEI Empresarial S.A.S';
-                        if ($this->consulta->enviar($remitente, $destinatario, $asunto, $contenido, 0)) {
+                        if ($this->correos->enviar($remitente, $destinatario, $asunto, $contenido, 0)) {
                             echo 1;
                         } else {
                             echo 0;
