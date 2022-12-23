@@ -199,13 +199,13 @@
                                     }
                                 </style>
                             </head>
-                            <body style="font-family: Arial, Helvetica, sans-serif;margin: 0;">
+                            <body style="background: #FBF0EA;font-family: Arial, Helvetica, sans-serif;margin: 0;">
                                 <br>
                                 <table style="width: 100%;">
                                     <tr>
                                         <td id="celda_a" style="width: 23.3%;"></td>
                                         <td id="celda_b" style="width: 33.3%;">
-                                            <div style="color: #1d1d1b;">
+                                            <div style="background: #FFF;color: #1d1d1b;">
                                                 '.$contenido.'
                                             </div>
                                         </td>
@@ -218,7 +218,7 @@
                     ';
                 //Enviar el correo por el SES de AWS
                     $sender = ($noreply == 0) ? 'letstalk@theflowarchitects.com' : 'letstalk@theflowarchitects.com'; //Reply/No-reply
-                    $senderName = 'The Flow Architects';
+                    $senderName = 'CEI Empresarial S.A.S';
                     $usernameSmtp = 'AKIASP2F5FSU7ROANUOF';
                     $passwordSmtp = 'BFcUvfp+xWMB7JYj1Xi7aSfuRIXeq0qt6K96YkYejqFp';
                     $host = 'email-smtp.us-east-1.amazonaws.com';
