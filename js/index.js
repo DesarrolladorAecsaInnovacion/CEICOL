@@ -104,6 +104,7 @@
                     type: 'post',
                     success: function(result) {
                         $('#loader_wrapper_v2').addClass('hide');
+                        console.log(result);
                         if (result == 1) {
                             swal({
                                 title: "Categoria guardada",
