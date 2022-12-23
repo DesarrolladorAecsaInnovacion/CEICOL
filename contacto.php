@@ -16,7 +16,7 @@
         ?>
         <script>
             var CaptchaCallback = function() {
-                grecaptcha.render('captcha_wrapper_contacto', {'sitekey' : '6LdWr2AjAAAAAHHId89Qv27-MRZNioNwXkR_BRyn'});
+                grecaptcha.render('captcha_wrapper_contacto', {'sitekey' : '6LcI-qAjAAAAABJiYuRaZ34Po3prUAIxRG5QjCxY'});
             };                
         </script> 
     </body>

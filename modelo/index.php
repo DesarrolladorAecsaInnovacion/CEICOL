@@ -17,7 +17,7 @@
                     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
                     $data = [
-                        'secret' => '6LdWr2AjAAAAAM_rIYO3S8SgOCiizgvG19o0TTUp',
+                        'secret' => '6LcI-qAjAAAAAEofQn1r-Fe3GMt-CZao1EfoZ9fP',
                         'response' => $_POST['data']['captcha'],
                         'remoteip' => $_SERVER['REMOTE_ADDR'],
                     ];
