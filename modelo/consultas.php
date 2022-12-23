@@ -199,13 +199,13 @@
                                     }
                                 </style>
                             </head>
-                            <body style="background: #FBF0EA;font-family: Arial, Helvetica, sans-serif;margin: 0;">
+                            <body style="font-family: Arial, Helvetica, sans-serif;margin: 0;">
                                 <br>
-                                <table style="width: 100%;">
+                                <table style="background: #CCC;width: 100%;">
                                     <tr>
                                         <td id="celda_a" style="width: 23.3%;"></td>
-                                        <td id="celda_b" style="width: 33.3%;">
-                                            <div style="background: #FFF;color: #1d1d1b;">
+                                        <td id="celda_b" style="background: #FBF0EA;width: 33.3%;">
+                                            <div style="color: #1d1d1b;">
                                                 '.$contenido.'
                                             </div>
                                         </td>
