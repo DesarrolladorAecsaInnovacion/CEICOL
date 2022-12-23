@@ -107,7 +107,7 @@
                         console.log(result);
                         if (result == 1) {
                             swal({
-                                title: "Categoria guardada",
+                                title: "Información enviada con éxito",
                                 icon: "success",
                             });
                             $('#nombre').val('');
