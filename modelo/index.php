@@ -51,6 +51,12 @@
                                         <br>
                                     </p>
                                     <p style="color: #1d1d1b !important;border-bottom: 1px solid #1d1d1b;text-align: justify;">
+                                        <b>Fecha:</b>
+                                        <br>
+                                        '.date('d-m-Y').'
+                                        <br>
+                                    </p>
+                                    <p style="color: #1d1d1b !important;border-bottom: 1px solid #1d1d1b;text-align: justify;">
                                         <b>E-mail:</b>
                                         <br>
                                         '.$_POST['data']['correo'].'
