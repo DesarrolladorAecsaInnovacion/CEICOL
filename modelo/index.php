@@ -45,15 +45,15 @@
                                         <br><br>
                                     </p>
                                     <p style="color: #1d1d1b !important;border-bottom: 1px solid #1d1d1b;text-align: justify;">
-                                        <b>Nombre:</b>
-                                        <br>
-                                        '.$_POST['data']['nombre'].'
-                                        <br>
-                                    </p>
-                                    <p style="color: #1d1d1b !important;border-bottom: 1px solid #1d1d1b;text-align: justify;">
                                         <b>Fecha:</b>
                                         <br>
                                         '.date('d-m-Y').'
+                                        <br>
+                                    </p>
+                                    <p style="color: #1d1d1b !important;border-bottom: 1px solid #1d1d1b;text-align: justify;">
+                                        <b>Nombre:</b>
+                                        <br>
+                                        '.$_POST['data']['nombre'].'
                                         <br>
                                     </p>
                                     <p style="color: #1d1d1b !important;border-bottom: 1px solid #1d1d1b;text-align: justify;">
